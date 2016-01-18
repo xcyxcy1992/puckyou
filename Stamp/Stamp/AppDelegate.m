@@ -9,7 +9,7 @@
 #import "AppDelegate.h"
 
 @interface AppDelegate ()
-
+@property (nonatomic,strong)UITabBarController * tabbar;
 @end
 
 @implementation AppDelegate

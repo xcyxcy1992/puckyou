@@ -7,10 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		449276931C4DCFC3004B49DA /* LeftSlideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 449276901C4DCFC3004B49DA /* LeftSlideViewController.m */; };
+		449276941C4DCFC3004B49DA /* UIView_extra.m in Sources */ = {isa = PBXBuildFile; fileRef = 449276921C4DCFC3004B49DA /* UIView_extra.m */; };
+		449276981C4DD0F0004B49DA /* LeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 449276961C4DD0F0004B49DA /* LeftViewController.m */; };
+		449276991C4DD0F0004B49DA /* LeftViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 449276971C4DD0F0004B49DA /* LeftViewController.xib */; };
+		449276A11C4DD1AA004B49DA /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4492769F1C4DD1AA004B49DA /* MainViewController.m */; };
+		449276A21C4DD1AA004B49DA /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 449276A01C4DD1AA004B49DA /* MainViewController.xib */; };
+		449276A61C4DD1B8004B49DA /* BigViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 449276A41C4DD1B8004B49DA /* BigViewController.m */; };
+		449276A71C4DD1B8004B49DA /* BigViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 449276A51C4DD1B8004B49DA /* BigViewController.xib */; };
+		449276AB1C4DD1D9004B49DA /* NoticeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 449276A91C4DD1D9004B49DA /* NoticeViewController.m */; };
+		449276AC1C4DD1D9004B49DA /* NoticeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 449276AA1C4DD1D9004B49DA /* NoticeViewController.xib */; };
+		449276B01C4DD1E6004B49DA /* LikeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 449276AE1C4DD1E6004B49DA /* LikeViewController.m */; };
+		449276B11C4DD1E6004B49DA /* LikeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 449276AF1C4DD1E6004B49DA /* LikeViewController.xib */; };
+		44973BE81C4DD7BB00660BE0 /* slide_left_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 44973BE61C4DD7BB00660BE0 /* slide_left_bg.png */; };
+		44973BE91C4DD7BB00660BE0 /* slide_right_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 44973BE71C4DD7BB00660BE0 /* slide_right_bg.png */; };
+		44973BED1C4DDAD700660BE0 /* header_icon_more@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 44973BEC1C4DDAD700660BE0 /* header_icon_more@2x.png */; };
+		44973BEF1C4DDCE200660BE0 /* home_navi_blackground@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 44973BEE1C4DDCE200660BE0 /* home_navi_blackground@3x.png */; };
 		BC760D4F1C4D0382004F7D13 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC760D4E1C4D0382004F7D13 /* main.m */; };
 		BC760D521C4D0382004F7D13 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BC760D511C4D0382004F7D13 /* AppDelegate.m */; };
 		BC760D5A1C4D0382004F7D13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC760D591C4D0382004F7D13 /* Assets.xcassets */; };
-		BC760D5D1C4D0382004F7D13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC760D5B1C4D0382004F7D13 /* LaunchScreen.storyboard */; };
 		BC760D681C4D0382004F7D13 /* StampTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC760D671C4D0382004F7D13 /* StampTests.m */; };
 		BC760D731C4D0382004F7D13 /* StampUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC760D721C4D0382004F7D13 /* StampUITests.m */; };
 /* End PBXBuildFile section */
@@ -39,7 +54,6 @@
 		BC760D501C4D0382004F7D13 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BC760D511C4D0382004F7D13 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		BC760D591C4D0382004F7D13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		BC760D5C1C4D0382004F7D13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BC760D5E1C4D0382004F7D13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BC760D631C4D0382004F7D13 /* StampTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StampTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC760D671C4D0382004F7D13 /* StampTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StampTests.m; sourceTree = "<group>"; };
@@ -119,6 +133,7 @@
 				BC760D5B1C4D0382004F7D13 /* LaunchScreen.storyboard */,
 				BC760D5E1C4D0382004F7D13 /* Info.plist */,
 				BC760D4D1C4D0382004F7D13 /* Supporting Files */,
+				44973BEB1C4DD82500660BE0 /* Stamp */,
 			);
 			path = Stamp;
 			sourceTree = "<group>";
@@ -253,8 +268,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BC760D5D1C4D0382004F7D13 /* LaunchScreen.storyboard in Resources */,
+				44973BE81C4DD7BB00660BE0 /* slide_left_bg.png in Resources */,
+				44973BED1C4DDAD700660BE0 /* header_icon_more@2x.png in Resources */,
+				449276B11C4DD1E6004B49DA /* LikeViewController.xib in Resources */,
+				449276AC1C4DD1D9004B49DA /* NoticeViewController.xib in Resources */,
+				44973BE91C4DD7BB00660BE0 /* slide_right_bg.png in Resources */,
+				44973BEF1C4DDCE200660BE0 /* home_navi_blackground@3x.png in Resources */,
+				449276A71C4DD1B8004B49DA /* BigViewController.xib in Resources */,
+				449276991C4DD0F0004B49DA /* LeftViewController.xib in Resources */,
 				BC760D5A1C4D0382004F7D13 /* Assets.xcassets in Resources */,
+				449276A21C4DD1AA004B49DA /* MainViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,7 +303,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC760D521C4D0382004F7D13 /* AppDelegate.m in Sources */,
+				449276B01C4DD1E6004B49DA /* LikeViewController.m in Sources */,
+				449276A11C4DD1AA004B49DA /* MainViewController.m in Sources */,
+				449276AB1C4DD1D9004B49DA /* NoticeViewController.m in Sources */,
+				449276981C4DD0F0004B49DA /* LeftViewController.m in Sources */,
+				449276941C4DCFC3004B49DA /* UIView_extra.m in Sources */,
 				BC760D4F1C4D0382004F7D13 /* main.m in Sources */,
+				449276A61C4DD1B8004B49DA /* BigViewController.m in Sources */,
+				449276931C4DCFC3004B49DA /* LeftSlideViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,17 +344,6 @@
 			targetProxy = BC760D6F1C4D0382004F7D13 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		BC760D5B1C4D0382004F7D13 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BC760D5C1C4D0382004F7D13 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		BC760D751C4D0382004F7D13 /* Debug */ = {

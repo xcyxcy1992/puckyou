@@ -7,9 +7,18 @@
 //
 
 #import "AppDelegate.h"
+#import "LeftSlideViewController.h"
+#import "LeftViewController.h"
+#import "MainViewController.h"
+#import "BigViewController.h"
+#import "NoticeViewController.h"
+#import "LikeViewController.h"
 
 @interface AppDelegate ()
+@property (nonatomic,strong)LeftViewController * left;
 @property (nonatomic,strong)UITabBarController * tabbar;
+
+
 @end
 
 @implementation AppDelegate
@@ -17,8 +26,58 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    _tabbar = [[UITabBarController alloc]init];;
+    
+    [self createTabbar];
+    
+    _left = [[LeftViewController alloc]init];
+    
+    _leftSlide = [[LeftSlideViewController alloc]initWithLeftView:_left andMainView:_tabbar];
+    
+    self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    
+    self.window.backgroundColor = [UIColor whiteColor];
+    
+    self.window.rootViewController = _leftSlide;
+    
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
+
+- (void)createTabbar{
+    
+    MainViewController * main = [[MainViewController alloc]init];
+    UINavigationController * nav1 = [[UINavigationController alloc]initWithRootViewController:main];
+    
+    
+    BigViewController * big = [[BigViewController alloc]init];
+    UINavigationController * nav2 = [[UINavigationController alloc]initWithRootViewController:big];
+    
+    NoticeViewController * notice = [[NoticeViewController alloc]init];
+    UINavigationController * nav3 = [[UINavigationController alloc]initWithRootViewController:notice];
+    
+    LikeViewController * like = [[LikeViewController alloc]init];
+    UINavigationController * nav4 = [[UINavigationController alloc]initWithRootViewController:like];
+    
+    nav1.tabBarItem = [[UITabBarItem alloc]initWithTitle:@"首页" image:[UIImage imageNamed:@""] selectedImage:[UIImage imageNamed:@""]];
+    
+    nav2.tabBarItem = [[UITabBarItem alloc]initWithTitle:@"大盘直播" image:[UIImage imageNamed:@""] selectedImage:[UIImage imageNamed:@""]];
+    
+    nav3.tabBarItem = [[UITabBarItem alloc]initWithTitle:@"公告" image:[UIImage imageNamed:@""] selectedImage:[UIImage imageNamed:@""]];
+    
+    nav4.tabBarItem = [[UITabBarItem alloc]initWithTitle:@"自选藏品" image:[UIImage imageNamed:@""] selectedImage:[UIImage imageNamed:@""]];
+    //设置navigationBar背景颜色
+    [[UINavigationBar appearance] setBarTintColor:[UIColor colorWithRed:251/256.0 green:37/256.0 blue:58/256.0 alpha:1.000]];
+
+    _tabbar.viewControllers = @[nav1,nav2,nav3,nav4];
+    
+    _tabbar.tabBar.backgroundImage = [UIImage imageNamed:@"home_navi_blackground@3x"];
+    //设置状态栏为白色
+    [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent];
+    
+}
+
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

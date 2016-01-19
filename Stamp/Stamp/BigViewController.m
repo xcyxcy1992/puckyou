@@ -7,6 +7,7 @@
 //
 
 #import "BigViewController.h"
+#import "AppDelegate.h"
 
 @interface BigViewController ()
 
@@ -33,13 +34,38 @@
     
     self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc]initWithCustomView:btn];
     
+    UIButton * btn1 = [[UIButton alloc]initWithFrame:CGRectMake(0, 0, 30, 30)];
+    
+    [btn1 setBackgroundImage:[UIImage imageNamed:@"header_icon_more@2x"] forState:UIControlStateNormal];
+    
+    [btn1 addTarget:self action:@selector(rightBtnClick:) forControlEvents:UIControlEventTouchUpInside];
+    
+    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc]initWithCustomView:btn1];
+    
 }
 
 #pragma mark 左侧侧按钮
 - (void)leftBtnClick:(UIButton *)btn{
     
+    UIApplication * app = [UIApplication sharedApplication];//获取当前应用程序
+    
+    AppDelegate * delegate = app.delegate;
+    
+    if ([delegate.leftSlide closed]) {//切换侧滑效果
+        [delegate.leftSlide openLeftView];
+    }else{
+        [delegate.leftSlide closed];
+    }
+}
+
+#pragma mark 右侧侧按钮
+- (void)rightBtnClick:(UIButton *)btn{
+    
+    
+    
     
 }
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

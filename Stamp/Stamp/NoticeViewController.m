@@ -7,6 +7,7 @@
 //
 
 #import "NoticeViewController.h"
+#import "AppDelegate.h"
 
 @interface NoticeViewController ()
 
@@ -36,6 +37,15 @@
 #pragma mark 左侧侧按钮
 - (void)leftBtnClick:(UIButton *)btn{
     
+    UIApplication * app = [UIApplication sharedApplication];//获取当前应用程序
+    
+    AppDelegate * delegate = app.delegate;
+    
+    if ([delegate.leftSlide closed]) {//切换侧滑效果
+        [delegate.leftSlide openLeftView];
+    }else{
+        [delegate.leftSlide closed];
+    }
     
 }
 

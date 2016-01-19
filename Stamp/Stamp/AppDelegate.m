@@ -17,7 +17,6 @@
 @interface AppDelegate ()
 @property (nonatomic,strong)LeftViewController * left;
 @property (nonatomic,strong)UITabBarController * tabbar;
-@property (nonatomic,strong)LeftSlideViewController * leftSlide;
 
 
 @end

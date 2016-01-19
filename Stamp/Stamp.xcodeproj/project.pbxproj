@@ -33,6 +33,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BC3031341C4DCC7B00687CDD /* URL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = URL.h; sourceTree = "<group>"; };
 		BC760D4A1C4D0382004F7D13 /* Stamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC760D4E1C4D0382004F7D13 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BC760D501C4D0382004F7D13 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -73,6 +74,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BC3031321C4DC67800687CDD /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "New Group";
+			sourceTree = "<group>";
+		};
+		BC3031331C4DCC3500687CDD /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				BC3031341C4DCC7B00687CDD /* URL.h */,
+			);
+			name = resource;
+			sourceTree = "<group>";
+		};
 		BC760D411C4D0381004F7D13 = {
 			isa = PBXGroup;
 			children = (
@@ -96,6 +112,7 @@
 		BC760D4C1C4D0382004F7D13 /* Stamp */ = {
 			isa = PBXGroup;
 			children = (
+				BC3031321C4DC67800687CDD /* New Group */,
 				BC760D501C4D0382004F7D13 /* AppDelegate.h */,
 				BC760D511C4D0382004F7D13 /* AppDelegate.m */,
 				BC760D591C4D0382004F7D13 /* Assets.xcassets */,
@@ -109,6 +126,7 @@
 		BC760D4D1C4D0382004F7D13 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				BC3031331C4DCC3500687CDD /* resource */,
 				BC760D4E1C4D0382004F7D13 /* main.m */,
 			);
 			name = "Supporting Files";

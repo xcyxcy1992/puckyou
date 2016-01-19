@@ -68,9 +68,14 @@
     nav3.tabBarItem = [[UITabBarItem alloc]initWithTitle:@"公告" image:[UIImage imageNamed:@""] selectedImage:[UIImage imageNamed:@""]];
     
     nav4.tabBarItem = [[UITabBarItem alloc]initWithTitle:@"自选藏品" image:[UIImage imageNamed:@""] selectedImage:[UIImage imageNamed:@""]];
-    
+    //设置navigationBar背景颜色
+    [[UINavigationBar appearance] setBarTintColor:[UIColor colorWithRed:251/256.0 green:37/256.0 blue:58/256.0 alpha:1.000]];
 
     _tabbar.viewControllers = @[nav1,nav2,nav3,nav4];
+    
+    _tabbar.tabBar.backgroundImage = [UIImage imageNamed:@"home_navi_blackground@3x"];
+    //设置状态栏为白色
+    [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent];
     
 }
 

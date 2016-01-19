@@ -71,6 +71,7 @@
 		44973BE71C4DD7BB00660BE0 /* slide_right_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = slide_right_bg.png; sourceTree = "<group>"; };
 		44973BEC1C4DDAD700660BE0 /* header_icon_more@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "header_icon_more@2x.png"; sourceTree = "<group>"; };
 		44973BEE1C4DDCE200660BE0 /* home_navi_blackground@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home_navi_blackground@3x.png"; sourceTree = "<group>"; };
+		44973BF11C4E32B500660BE0 /* URL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URL.h; sourceTree = "<group>"; };
 		BC760D4A1C4D0382004F7D13 /* Stamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC760D4E1C4D0382004F7D13 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BC760D501C4D0382004F7D13 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -272,6 +273,7 @@
 		BC760D4D1C4D0382004F7D13 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				44973BF11C4E32B500660BE0 /* URL.h */,
 				BC760D4E1C4D0382004F7D13 /* main.m */,
 			);
 			name = "Supporting Files";

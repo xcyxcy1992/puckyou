@@ -24,12 +24,13 @@
     [super viewDidLoad];
     
     self.tableViewArr = @[@"最新公告", @"二维码", @"关于我们"];
+    [self.view setFrame:[UIScreen mainScreen].bounds];
+    self.view.backgroundColor = [UIColor blueColor];
+    UIImageView * imageV = [[UIImageView alloc]initWithFrame:[UIScreen mainScreen].bounds];
     
-//    UIImageView * imageV = [[UIImageView alloc]initWithFrame:[UIScreen mainScreen].bounds];
-//    
-//    imageV.image = [UIImage imageNamed:@"slide_left_bg"];
-//    
-//    [self.view addSubview:imageV];
+    imageV.image = [UIImage imageNamed:@"left_background.jpg"];
+    
+    [self.view addSubview:imageV];
     [self createTableView];
 }
 
@@ -39,6 +40,7 @@
     self.tableView.delegate = self;
     self.tableView.dataSource = self;
     self.tableView.scrollEnabled = NO;
+    self.tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
     
     [self.view addSubview:self.tableView];
 }
@@ -66,20 +68,6 @@
     cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
     cell.textLabel.text = self.tableViewArr[indexPath.row];
     return cell;
-}
-
-- (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section
-{
-    UIView * view = [[UIView alloc] initWithFrame:CGRectMake(0, 0, SCREEN_W, 240)];
-    UIImageView * imageView = [[UIImageView alloc] initWithFrame:view.frame];
-    imageView.image = [UIImage imageNamed:@"left_background.jpg"];
-    [view addSubview:imageView];
-    return view;
-}
-
-- (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section
-{
-    return 240;
 }
 
 - (void)didReceiveMemoryWarning {

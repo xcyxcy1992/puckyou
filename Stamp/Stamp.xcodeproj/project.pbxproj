@@ -42,34 +42,11 @@
 		44973C7E1C4E5ED600660BE0 /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 44973C161C4E5ED600660BE0 /* UIProgressView+AFNetworking.m */; };
 		44973C7F1C4E5ED600660BE0 /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 44973C181C4E5ED600660BE0 /* UIRefreshControl+AFNetworking.m */; };
 		44973C801C4E5ED600660BE0 /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 44973C1A1C4E5ED600660BE0 /* UIWebView+AFNetworking.m */; };
-		44973C811C4E5ED600660BE0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 44973C1E1C4E5ED600660BE0 /* AppDelegate.m */; };
-		44973C821C4E5ED600660BE0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44973C1F1C4E5ED600660BE0 /* LaunchScreen.xib */; };
-		44973C831C4E5ED600660BE0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44973C211C4E5ED600660BE0 /* Main.storyboard */; };
-		44973C841C4E5ED600660BE0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44973C231C4E5ED600660BE0 /* Images.xcassets */; };
-		44973C851C4E5ED600660BE0 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 44973C241C4E5ED600660BE0 /* Info.plist */; };
-		44973C861C4E5ED600660BE0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 44973C251C4E5ED600660BE0 /* main.m */; };
-		44973C871C4E5ED600660BE0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44973C271C4E5ED600660BE0 /* ViewController.m */; };
-		44973C881C4E5ED600660BE0 /* block_______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 44973C2C1C4E5ED600660BE0 /* block_______Tests.m */; };
-		44973C891C4E5ED600660BE0 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 44973C2D1C4E5ED600660BE0 /* Info.plist */; };
-		44973C8A1C4E5ED600660BE0 /* LHFHttpRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 44973C2F1C4E5ED600660BE0 /* LHFHttpRequest.m */; };
 		44973C8B1C4E5ED600660BE0 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 44973C321C4E5ED600660BE0 /* FMDatabase.m */; };
 		44973C8C1C4E5ED600660BE0 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 44973C341C4E5ED600660BE0 /* FMDatabaseAdditions.m */; };
 		44973C8D1C4E5ED600660BE0 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 44973C361C4E5ED600660BE0 /* FMDatabasePool.m */; };
 		44973C8E1C4E5ED600660BE0 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 44973C381C4E5ED600660BE0 /* FMDatabaseQueue.m */; };
 		44973C8F1C4E5ED600660BE0 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 44973C3A1C4E5ED600660BE0 /* FMResultSet.m */; };
-		44973C901C4E5ED600660BE0 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 44973C3C1C4E5ED600660BE0 /* .gitignore */; };
-		44973C911C4E5ED600660BE0 /* UINavigationController+FDFullscreenPopGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 44973C3F1C4E5ED600660BE0 /* UINavigationController+FDFullscreenPopGesture.m */; };
-		44973C921C4E5ED600660BE0 /* FDFullscreenPopGesture.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 44973C401C4E5ED600660BE0 /* FDFullscreenPopGesture.podspec */; };
-		44973C931C4E5ED600660BE0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 44973C441C4E5ED600660BE0 /* AppDelegate.m */; };
-		44973C941C4E5ED600660BE0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44973C451C4E5ED600660BE0 /* LaunchScreen.xib */; };
-		44973C951C4E5ED600660BE0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44973C471C4E5ED600660BE0 /* Main.storyboard */; };
-		44973C961C4E5ED600660BE0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44973C491C4E5ED600660BE0 /* Images.xcassets */; };
-		44973C971C4E5ED600660BE0 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 44973C4A1C4E5ED600660BE0 /* Info.plist */; };
-		44973C981C4E5ED600660BE0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 44973C4B1C4E5ED600660BE0 /* main.m */; };
-		44973C991C4E5ED600660BE0 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 44973C4F1C4E5ED600660BE0 /* LICENSE */; };
-		44973C9A1C4E5ED600660BE0 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 44973C501C4E5ED600660BE0 /* README.md */; };
-		44973C9B1C4E5ED600660BE0 /* snapshot0.gif in Resources */ = {isa = PBXBuildFile; fileRef = 44973C521C4E5ED600660BE0 /* snapshot0.gif */; };
-		44973C9C1C4E5ED600660BE0 /* snapshot1.gif in Resources */ = {isa = PBXBuildFile; fileRef = 44973C531C4E5ED600660BE0 /* snapshot1.gif */; };
 		44973C9D1C4E5ED600660BE0 /* JSONModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 44973C571C4E5ED600660BE0 /* JSONModel.m */; };
 		44973C9E1C4E5ED600660BE0 /* JSONModelArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 44973C591C4E5ED600660BE0 /* JSONModelArray.m */; };
 		44973C9F1C4E5ED600660BE0 /* JSONModelClassProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 44973C5B1C4E5ED600660BE0 /* JSONModelClassProperty.m */; };
@@ -89,27 +66,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		44973CA91C4E5ED600660BE0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 44973C281C4E5ED600660BE0 /* block-- 请求封装.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 6164F1511BE7B3FE002ABC88;
-			remoteInfo = "block-- 请求封装";
-		};
-		44973CAB1C4E5ED600660BE0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 44973C281C4E5ED600660BE0 /* block-- 请求封装.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 6164F16A1BE7B3FE002ABC88;
-			remoteInfo = "block-- 请求封装Tests";
-		};
-		44973CAE1C4E5ED600660BE0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 44973C4C1C4E5ED600660BE0 /* FDFullscreenPopGestureDemo.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 4894F41A1B183DE3009F44D9;
-			remoteInfo = FDFullscreenPopGestureDemo;
-		};
 		BC760D641C4D0382004F7D13 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BC760D421C4D0381004F7D13 /* Project object */;
@@ -189,20 +145,6 @@
 		44973C181C4E5ED600660BE0 /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
 		44973C191C4E5ED600660BE0 /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
 		44973C1A1C4E5ED600660BE0 /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
-		44973C1D1C4E5ED600660BE0 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		44973C1E1C4E5ED600660BE0 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		44973C201C4E5ED600660BE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		44973C221C4E5ED600660BE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		44973C231C4E5ED600660BE0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		44973C241C4E5ED600660BE0 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		44973C251C4E5ED600660BE0 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		44973C261C4E5ED600660BE0 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		44973C271C4E5ED600660BE0 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		44973C281C4E5ED600660BE0 /* block-- 请求封装.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = "block-- 请求封装.xcodeproj"; sourceTree = "<group>"; };
-		44973C2C1C4E5ED600660BE0 /* block_______Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "block_______Tests.m"; sourceTree = "<group>"; };
-		44973C2D1C4E5ED600660BE0 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		44973C2E1C4E5ED600660BE0 /* LHFHttpRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHFHttpRequest.h; sourceTree = "<group>"; };
-		44973C2F1C4E5ED600660BE0 /* LHFHttpRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LHFHttpRequest.m; sourceTree = "<group>"; };
 		44973C311C4E5ED600660BE0 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
 		44973C321C4E5ED600660BE0 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
 		44973C331C4E5ED600660BE0 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
@@ -213,22 +155,6 @@
 		44973C381C4E5ED600660BE0 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
 		44973C391C4E5ED600660BE0 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
 		44973C3A1C4E5ED600660BE0 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
-		44973C3C1C4E5ED600660BE0 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
-		44973C3E1C4E5ED600660BE0 /* UINavigationController+FDFullscreenPopGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+FDFullscreenPopGesture.h"; sourceTree = "<group>"; };
-		44973C3F1C4E5ED600660BE0 /* UINavigationController+FDFullscreenPopGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+FDFullscreenPopGesture.m"; sourceTree = "<group>"; };
-		44973C401C4E5ED600660BE0 /* FDFullscreenPopGesture.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = FDFullscreenPopGesture.podspec; sourceTree = "<group>"; };
-		44973C431C4E5ED600660BE0 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		44973C441C4E5ED600660BE0 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		44973C461C4E5ED600660BE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		44973C481C4E5ED600660BE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		44973C491C4E5ED600660BE0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		44973C4A1C4E5ED600660BE0 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		44973C4B1C4E5ED600660BE0 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		44973C4C1C4E5ED600660BE0 /* FDFullscreenPopGestureDemo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = FDFullscreenPopGestureDemo.xcodeproj; sourceTree = "<group>"; };
-		44973C4F1C4E5ED600660BE0 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		44973C501C4E5ED600660BE0 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		44973C521C4E5ED600660BE0 /* snapshot0.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = snapshot0.gif; sourceTree = "<group>"; };
-		44973C531C4E5ED600660BE0 /* snapshot1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = snapshot1.gif; sourceTree = "<group>"; };
 		44973C561C4E5ED600660BE0 /* JSONModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModel.h; sourceTree = "<group>"; };
 		44973C571C4E5ED600660BE0 /* JSONModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONModel.m; sourceTree = "<group>"; };
 		44973C581C4E5ED600660BE0 /* JSONModelArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModelArray.h; sourceTree = "<group>"; };
@@ -345,9 +271,7 @@
 			isa = PBXGroup;
 			children = (
 				44973BF21C4E5ED600660BE0 /* AFnetWorking */,
-				44973C1B1C4E5ED600660BE0 /* block-- 请求封装 */,
 				44973C301C4E5ED600660BE0 /* FMDB 数据库 */,
-				44973C3B1C4E5ED600660BE0 /* iOS丝滑返回手势 */,
 				44973C541C4E5ED600660BE0 /* JSONModeljson解析 */,
 				4492768E1C4DCFC3004B49DA /* LeftSlideViewController侧滑 */,
 			);
@@ -481,52 +405,6 @@
 			path = "UIKit+AFNetworking";
 			sourceTree = "<group>";
 		};
-		44973C1B1C4E5ED600660BE0 /* block-- 请求封装 */ = {
-			isa = PBXGroup;
-			children = (
-				44973C1C1C4E5ED600660BE0 /* block-- 请求封装 */,
-				44973C281C4E5ED600660BE0 /* block-- 请求封装.xcodeproj */,
-				44973C2B1C4E5ED600660BE0 /* block-- 请求封装Tests */,
-				44973C2E1C4E5ED600660BE0 /* LHFHttpRequest.h */,
-				44973C2F1C4E5ED600660BE0 /* LHFHttpRequest.m */,
-			);
-			path = "block-- 请求封装";
-			sourceTree = "<group>";
-		};
-		44973C1C1C4E5ED600660BE0 /* block-- 请求封装 */ = {
-			isa = PBXGroup;
-			children = (
-				44973C1D1C4E5ED600660BE0 /* AppDelegate.h */,
-				44973C1E1C4E5ED600660BE0 /* AppDelegate.m */,
-				44973C1F1C4E5ED600660BE0 /* LaunchScreen.xib */,
-				44973C211C4E5ED600660BE0 /* Main.storyboard */,
-				44973C231C4E5ED600660BE0 /* Images.xcassets */,
-				44973C241C4E5ED600660BE0 /* Info.plist */,
-				44973C251C4E5ED600660BE0 /* main.m */,
-				44973C261C4E5ED600660BE0 /* ViewController.h */,
-				44973C271C4E5ED600660BE0 /* ViewController.m */,
-			);
-			path = "block-- 请求封装";
-			sourceTree = "<group>";
-		};
-		44973C291C4E5ED600660BE0 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				44973CAA1C4E5ED600660BE0 /* block-- 请求封装.app */,
-				44973CAC1C4E5ED600660BE0 /* block-- 请求封装Tests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		44973C2B1C4E5ED600660BE0 /* block-- 请求封装Tests */ = {
-			isa = PBXGroup;
-			children = (
-				44973C2C1C4E5ED600660BE0 /* block_______Tests.m */,
-				44973C2D1C4E5ED600660BE0 /* Info.plist */,
-			);
-			path = "block-- 请求封装Tests";
-			sourceTree = "<group>";
-		};
 		44973C301C4E5ED600660BE0 /* FMDB 数据库 */ = {
 			isa = PBXGroup;
 			children = (
@@ -542,69 +420,6 @@
 				44973C3A1C4E5ED600660BE0 /* FMResultSet.m */,
 			);
 			path = "FMDB 数据库";
-			sourceTree = "<group>";
-		};
-		44973C3B1C4E5ED600660BE0 /* iOS丝滑返回手势 */ = {
-			isa = PBXGroup;
-			children = (
-				44973C3C1C4E5ED600660BE0 /* .gitignore */,
-				44973C3D1C4E5ED600660BE0 /* FDFullscreenPopGesture */,
-				44973C401C4E5ED600660BE0 /* FDFullscreenPopGesture.podspec */,
-				44973C411C4E5ED600660BE0 /* FDFullscreenPopGestureDemo */,
-				44973C4F1C4E5ED600660BE0 /* LICENSE */,
-				44973C501C4E5ED600660BE0 /* README.md */,
-				44973C511C4E5ED600660BE0 /* Snapshots */,
-			);
-			path = "iOS丝滑返回手势";
-			sourceTree = "<group>";
-		};
-		44973C3D1C4E5ED600660BE0 /* FDFullscreenPopGesture */ = {
-			isa = PBXGroup;
-			children = (
-				44973C3E1C4E5ED600660BE0 /* UINavigationController+FDFullscreenPopGesture.h */,
-				44973C3F1C4E5ED600660BE0 /* UINavigationController+FDFullscreenPopGesture.m */,
-			);
-			path = FDFullscreenPopGesture;
-			sourceTree = "<group>";
-		};
-		44973C411C4E5ED600660BE0 /* FDFullscreenPopGestureDemo */ = {
-			isa = PBXGroup;
-			children = (
-				44973C421C4E5ED600660BE0 /* FDFullscreenPopGestureDemo */,
-				44973C4C1C4E5ED600660BE0 /* FDFullscreenPopGestureDemo.xcodeproj */,
-			);
-			path = FDFullscreenPopGestureDemo;
-			sourceTree = "<group>";
-		};
-		44973C421C4E5ED600660BE0 /* FDFullscreenPopGestureDemo */ = {
-			isa = PBXGroup;
-			children = (
-				44973C431C4E5ED600660BE0 /* AppDelegate.h */,
-				44973C441C4E5ED600660BE0 /* AppDelegate.m */,
-				44973C451C4E5ED600660BE0 /* LaunchScreen.xib */,
-				44973C471C4E5ED600660BE0 /* Main.storyboard */,
-				44973C491C4E5ED600660BE0 /* Images.xcassets */,
-				44973C4A1C4E5ED600660BE0 /* Info.plist */,
-				44973C4B1C4E5ED600660BE0 /* main.m */,
-			);
-			path = FDFullscreenPopGestureDemo;
-			sourceTree = "<group>";
-		};
-		44973C4D1C4E5ED600660BE0 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				44973CAF1C4E5ED600660BE0 /* FDFullscreenPopGestureDemo.app */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		44973C511C4E5ED600660BE0 /* Snapshots */ = {
-			isa = PBXGroup;
-			children = (
-				44973C521C4E5ED600660BE0 /* snapshot0.gif */,
-				44973C531C4E5ED600660BE0 /* snapshot1.gif */,
-			);
-			path = Snapshots;
 			sourceTree = "<group>";
 		};
 		44973C541C4E5ED600660BE0 /* JSONModeljson解析 */ = {
@@ -819,16 +634,6 @@
 			mainGroup = BC760D411C4D0381004F7D13;
 			productRefGroup = BC760D4B1C4D0382004F7D13 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 44973C291C4E5ED600660BE0 /* Products */;
-					ProjectRef = 44973C281C4E5ED600660BE0 /* block-- 请求封装.xcodeproj */;
-				},
-				{
-					ProductGroup = 44973C4D1C4E5ED600660BE0 /* Products */;
-					ProjectRef = 44973C4C1C4E5ED600660BE0 /* FDFullscreenPopGestureDemo.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				BC760D491C4D0382004F7D13 /* Stamp */,
@@ -838,56 +643,18 @@
 		};
 /* End PBXProject section */
 
-/* Begin PBXReferenceProxy section */
-		44973CAA1C4E5ED600660BE0 /* block-- 请求封装.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = "block-- 请求封装.app";
-			remoteRef = 44973CA91C4E5ED600660BE0 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		44973CAC1C4E5ED600660BE0 /* block-- 请求封装Tests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = "block-- 请求封装Tests.xctest";
-			remoteRef = 44973CAB1C4E5ED600660BE0 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		44973CAF1C4E5ED600660BE0 /* FDFullscreenPopGestureDemo.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = FDFullscreenPopGestureDemo.app;
-			remoteRef = 44973CAE1C4E5ED600660BE0 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
-
 /* Begin PBXResourcesBuildPhase section */
 		BC760D481C4D0382004F7D13 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				44973C891C4E5ED600660BE0 /* Info.plist in Resources */,
 				44973BE81C4DD7BB00660BE0 /* slide_left_bg.png in Resources */,
 				44973BED1C4DDAD700660BE0 /* header_icon_more@2x.png in Resources */,
 				44973C781C4E5ED600660BE0 /* menu_bg_01-hd.jpg in Resources */,
-				44973C9C1C4E5ED600660BE0 /* snapshot1.gif in Resources */,
-				44973C901C4E5ED600660BE0 /* .gitignore in Resources */,
 				449276B11C4DD1E6004B49DA /* LikeViewController.xib in Resources */,
-				44973C821C4E5ED600660BE0 /* LaunchScreen.xib in Resources */,
 				449276AC1C4DD1D9004B49DA /* NoticeViewController.xib in Resources */,
-				44973C971C4E5ED600660BE0 /* Info.plist in Resources */,
-				44973C9B1C4E5ED600660BE0 /* snapshot0.gif in Resources */,
 				44973BE91C4DD7BB00660BE0 /* slide_right_bg.png in Resources */,
-				44973C961C4E5ED600660BE0 /* Images.xcassets in Resources */,
-				44973C831C4E5ED600660BE0 /* Main.storyboard in Resources */,
-				44973C851C4E5ED600660BE0 /* Info.plist in Resources */,
-				44973C991C4E5ED600660BE0 /* LICENSE in Resources */,
-				44973C951C4E5ED600660BE0 /* Main.storyboard in Resources */,
-				44973C921C4E5ED600660BE0 /* FDFullscreenPopGesture.podspec in Resources */,
 				44973BEF1C4DDCE200660BE0 /* home_navi_blackground@3x.png in Resources */,
-				44973C941C4E5ED600660BE0 /* LaunchScreen.xib in Resources */,
-				44973C841C4E5ED600660BE0 /* Images.xcassets in Resources */,
 				449276A71C4DD1B8004B49DA /* BigViewController.xib in Resources */,
 				449276991C4DD0F0004B49DA /* LeftViewController.xib in Resources */,
 				BC760D5A1C4D0382004F7D13 /* Assets.xcassets in Resources */,
@@ -918,12 +685,10 @@
 			files = (
 				44973C721C4E5ED600660BE0 /* AFSecurityPolicy.m in Sources */,
 				BC760D521C4D0382004F7D13 /* AppDelegate.m in Sources */,
-				44973C881C4E5ED600660BE0 /* block_______Tests.m in Sources */,
 				44973CA01C4E5ED600660BE0 /* JSONModelError.m in Sources */,
 				44973C791C4E5ED600660BE0 /* README.md in Sources */,
 				44973C711C4E5ED600660BE0 /* AFNetworkReachabilityManager.m in Sources */,
 				44973C7E1C4E5ED600660BE0 /* UIProgressView+AFNetworking.m in Sources */,
-				44973C861C4E5ED600660BE0 /* main.m in Sources */,
 				44973C7B1C4E5ED600660BE0 /* UIAlertView+AFNetworking.m in Sources */,
 				449276B01C4DD1E6004B49DA /* LikeViewController.m in Sources */,
 				44973C8B1C4E5ED600660BE0 /* FMDatabase.m in Sources */,
@@ -935,16 +700,13 @@
 				44973C801C4E5ED600660BE0 /* UIWebView+AFNetworking.m in Sources */,
 				44973CA61C4E5ED600660BE0 /* JSONValueTransformer.m in Sources */,
 				44973CA11C4E5ED600660BE0 /* NSArray+JSONModel.m in Sources */,
-				44973C8A1C4E5ED600660BE0 /* LHFHttpRequest.m in Sources */,
 				44973C6E1C4E5ED600660BE0 /* AFHTTPRequestOperation.m in Sources */,
 				44973C8F1C4E5ED600660BE0 /* FMResultSet.m in Sources */,
 				44973C8E1C4E5ED600660BE0 /* FMDatabaseQueue.m in Sources */,
 				44973C701C4E5ED600660BE0 /* AFHTTPSessionManager.m in Sources */,
 				44973C9E1C4E5ED600660BE0 /* JSONModelArray.m in Sources */,
 				44973CA21C4E5ED600660BE0 /* JSONAPI.m in Sources */,
-				44973C931C4E5ED600660BE0 /* AppDelegate.m in Sources */,
 				44973C9D1C4E5ED600660BE0 /* JSONModel.m in Sources */,
-				44973C911C4E5ED600660BE0 /* UINavigationController+FDFullscreenPopGesture.m in Sources */,
 				44973C741C4E5ED600660BE0 /* AFURLRequestSerialization.m in Sources */,
 				449276A11C4DD1AA004B49DA /* MainViewController.m in Sources */,
 				44973C761C4E5ED600660BE0 /* AFURLSessionManager.m in Sources */,
@@ -952,12 +714,9 @@
 				449276AB1C4DD1D9004B49DA /* NoticeViewController.m in Sources */,
 				44973C6F1C4E5ED600660BE0 /* AFHTTPRequestOperationManager.m in Sources */,
 				449276981C4DD0F0004B49DA /* LeftViewController.m in Sources */,
-				44973C811C4E5ED600660BE0 /* AppDelegate.m in Sources */,
-				44973C981C4E5ED600660BE0 /* main.m in Sources */,
 				44973CA31C4E5ED600660BE0 /* JSONHTTPClient.m in Sources */,
 				44973C751C4E5ED600660BE0 /* AFURLResponseSerialization.m in Sources */,
 				44973C7F1C4E5ED600660BE0 /* UIRefreshControl+AFNetworking.m in Sources */,
-				44973C871C4E5ED600660BE0 /* ViewController.m in Sources */,
 				44973C7D1C4E5ED600660BE0 /* UIImageView+AFNetworking.m in Sources */,
 				44973C9F1C4E5ED600660BE0 /* JSONModelClassProperty.m in Sources */,
 				449276941C4DCFC3004B49DA /* UIView_extra.m in Sources */,
@@ -965,7 +724,6 @@
 				BC760D4F1C4D0382004F7D13 /* main.m in Sources */,
 				44973C8D1C4E5ED600660BE0 /* FMDatabasePool.m in Sources */,
 				449276A61C4DD1B8004B49DA /* BigViewController.m in Sources */,
-				44973C9A1C4E5ED600660BE0 /* README.md in Sources */,
 				449276931C4DCFC3004B49DA /* LeftSlideViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1000,41 +758,6 @@
 			targetProxy = BC760D6F1C4D0382004F7D13 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		44973C1F1C4E5ED600660BE0 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				44973C201C4E5ED600660BE0 /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-		44973C211C4E5ED600660BE0 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				44973C221C4E5ED600660BE0 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		44973C451C4E5ED600660BE0 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				44973C461C4E5ED600660BE0 /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-		44973C471C4E5ED600660BE0 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				44973C481C4E5ED600660BE0 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		BC760D751C4D0382004F7D13 /* Debug */ = {

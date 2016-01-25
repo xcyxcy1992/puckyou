@@ -63,6 +63,7 @@
 		BC760D5A1C4D0382004F7D13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC760D591C4D0382004F7D13 /* Assets.xcassets */; };
 		BC760D681C4D0382004F7D13 /* StampTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC760D671C4D0382004F7D13 /* StampTests.m */; };
 		BC760D731C4D0382004F7D13 /* StampUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC760D721C4D0382004F7D13 /* StampUITests.m */; };
+		BC8DBCD31C55CE0600BF7BC2 /* left_background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BC8DBCD21C55CE0600BF7BC2 /* left_background.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -189,6 +190,7 @@
 		BC760D6E1C4D0382004F7D13 /* StampUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StampUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC760D721C4D0382004F7D13 /* StampUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StampUITests.m; sourceTree = "<group>"; };
 		BC760D741C4D0382004F7D13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC8DBCD21C55CE0600BF7BC2 /* left_background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = left_background.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -329,6 +331,7 @@
 				44973BEC1C4DDAD700660BE0 /* header_icon_more@2x.png */,
 				44973BE61C4DD7BB00660BE0 /* slide_left_bg.png */,
 				44973BE71C4DD7BB00660BE0 /* slide_right_bg.png */,
+				BC8DBCD21C55CE0600BF7BC2 /* left_background.jpg */,
 			);
 			name = Image;
 			sourceTree = "<group>";
@@ -648,6 +651,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC8DBCD31C55CE0600BF7BC2 /* left_background.jpg in Resources */,
 				44973BE81C4DD7BB00660BE0 /* slide_left_bg.png in Resources */,
 				44973BED1C4DDAD700660BE0 /* header_icon_more@2x.png in Resources */,
 				44973C781C4E5ED600660BE0 /* menu_bg_01-hd.jpg in Resources */,

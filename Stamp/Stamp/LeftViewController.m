@@ -7,6 +7,8 @@
 //
 
 #import "LeftViewController.h"
+#import "NewNoticeViewController.h"
+
 
 #define SCREEN_W [UIScreen mainScreen].bounds.size.width
 #define SCREEN_H [UIScreen mainScreen].bounds.size.height
@@ -81,6 +83,23 @@
 - (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section
 {
     return 240;
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    switch (indexPath.row) {
+        case 0:
+        {
+            NewNoticeViewController * newNoticeVC = [[NewNoticeViewController alloc] init];
+            [self presentViewController:newNoticeVC animated:YES completion:nil];
+            
+        }
+            
+            break;
+            
+        default:
+            break;
+    }
 }
 
 - (void)didReceiveMemoryWarning {
